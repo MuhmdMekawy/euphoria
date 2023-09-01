@@ -39,6 +39,9 @@ export default {
     navigateToProduct(productId) {
       // window.location.assign('/product/' + productId);
       this.$router.push({ name: 'Product', params: { id: productId } });
+      this.$nextTick(() => {
+        window.scrollTo(0, 0);
+      });
     }
   },
   components: {
@@ -54,7 +57,7 @@ export default {
   <Navbar />
   <div class="headerSlider">
     <div class="container">
-      <h4  data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000">T-shirt / Tops</h4>
+      <h4  data-aos="fade-right" data-aos-duration="1000">T-shirt / Tops</h4>
       <h1 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="2000">Summer <br> Value Pack</h1>
       <h4 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="3000">cool / colorful / comfy</h4>
       <button data-aos="fade-right" data-aos-duration="1000" data-aos-delay="4000" class="shopButton">Shop Now</button>
@@ -62,7 +65,7 @@ export default {
   </div>
   <div class="new-arrival">
     <div class="container">
-      <h3 class="special-Head"  data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1000">
+      <h3 class="special-Head"  data-aos="fade-right" data-aos-duration="1000">
         New Arrival
       </h3>
       <ProductSlider />
@@ -70,12 +73,12 @@ export default {
   </div>
   <div class="big-sale">
     <div class="container">
-      <h3 class="special-Head"  data-aos="fade-right" data-aos-duration="2000" data-aos-delay="1000">
+      <h3 class="special-Head"  data-aos="fade-right" data-aos-duration="2000">
         Big Saving Zone
       </h3>
       <div class="content">
         <div class="top">
-          <div class="cont" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="1000">
+          <div class="cont" data-aos="fade-right" data-aos-duration="2000">
             <img src="../assets/images/11.png" alt="">
             <h4>Hawaiian <br> Shirts</h4>
             <p>Dress up in summer vibe</p>
@@ -85,7 +88,7 @@ export default {
             </svg>
             <button>SHOP NOW</button>
           </div>
-          <div class="cont" data-aos="fade-down" data-aos-duration="2000" data-aos-delay="1000">
+          <div class="cont" data-aos="fade-down" data-aos-duration="2000">
             <img src="../assets/images/12.png" alt="">
             <div class="badge bg-secondary">Limited Stock</div>
             <h4>Printed  <br> T-Shirt</h4>
@@ -96,7 +99,7 @@ export default {
             </svg>
             <button>SHOP NOW</button>
           </div>
-          <div class="cont" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="1000">
+          <div class="cont" data-aos="fade-left" data-aos-duration="2000">
             <img src="../assets/images/13.png" alt="">
             <h4>Hawaiian <br> Shirts</h4>
             <p>Dress up in summer vibe</p>

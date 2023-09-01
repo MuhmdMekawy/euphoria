@@ -1,6 +1,6 @@
 <script>
 import DescTab from '../components/DescTab.vue';
-import CommentTab from '../components/commentTab.vue'
+import CommentTab from '../components/CommentTab.vue'
 import QuestionsTab from '../components/QuestionsTab.vue'
 import Navbar from '../components/Navbar.vue'
 import Footer from '../components/Footer.vue'
