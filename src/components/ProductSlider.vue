@@ -14,7 +14,7 @@ export default {
   data() {
     return {
       slides: [
-        { imageUrl: '/src/assets/images/Img1.png', caption: 'Knitted Joggers' },
+        { imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyrlyCZ0fdbkEsuTuy3BNaSoUUATItr_r2wmuv-H3vWFUogwfYBfEEEL5CyRP4VKN7Lr8&usqp=CAU', caption: 'Knitted Joggers' },
         { imageUrl: '/src/assets/images/2.png', caption: 'Full Sleeve' },
         { imageUrl: '/src/assets/images/3.png', caption: 'Active T-Shirts' },
         { imageUrl: '/src/assets/images/4.png', caption: 'Urban Shirts' },
