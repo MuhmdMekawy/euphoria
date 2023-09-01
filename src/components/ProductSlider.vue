@@ -14,14 +14,14 @@ export default {
   data() {
     return {
       slides: [
-        { imageUrl: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyrlyCZ0fdbkEsuTuy3BNaSoUUATItr_r2wmuv-H3vWFUogwfYBfEEEL5CyRP4VKN7Lr8&usqp=CAU', caption: 'Knitted Joggers' },
-        { imageUrl: '/src/assets/images/2.png', caption: 'Full Sleeve' },
-        { imageUrl: '/src/assets/images/3.png', caption: 'Active T-Shirts' },
-        { imageUrl: '/src/assets/images/4.png', caption: 'Urban Shirts' },
-        { imageUrl: '/src/assets/images/1.png', caption: 'Knitted Joggers' },
-        { imageUrl: '/src/assets/images/2.png', caption: 'Full Sleeve' },
-        { imageUrl: '/src/assets/images/3.png', caption: 'Active T-Shirts' },
-        { imageUrl: '/src/assets/images/4.png', caption: 'Urban Shirts' },
+        { imageUrl: 'https://drive.google.com/file/d/1EoGiVdcYdyBcxi5pjdEXJpV-caW5DOww/view?usp=drive_link', caption: 'Knitted Joggers' },
+        { imageUrl: 'https://drive.google.com/file/d/1UGN0seq6qIobBwmXty9fzvvbuqx1lgbT/view?usp=drive_link', caption: 'Full Sleeve' },
+        { imageUrl: 'https://drive.google.com/file/d/1r4sEKvnTUui2HFMGy6GLDLgcVqrX7Htm/view?usp=drive_link', caption: 'Active T-Shirts' },
+        { imageUrl: 'https://drive.google.com/file/d/1NlfZDslSJurETQWL7aSp504Cn4piPVsC/view?usp=drive_link', caption: 'Urban Shirts' },
+        { imageUrl: 'https://drive.google.com/file/d/1EoGiVdcYdyBcxi5pjdEXJpV-caW5DOww/view?usp=drive_link', caption: 'Knitted Joggers' },
+        { imageUrl: 'https://drive.google.com/file/d/1UGN0seq6qIobBwmXty9fzvvbuqx1lgbT/view?usp=drive_link', caption: 'Full Sleeve' },
+        { imageUrl: 'https://drive.google.com/file/d/1r4sEKvnTUui2HFMGy6GLDLgcVqrX7Htm/view?usp=drive_link', caption: 'Active T-Shirts' },
+        { imageUrl: 'https://drive.google.com/file/d/1NlfZDslSJurETQWL7aSp504Cn4piPVsC/view?usp=drive_link', caption: 'Urban Shirts' },
       ],
       // breakpoints are mobile first
       // any settings not specified will fallback to the carousel settings
