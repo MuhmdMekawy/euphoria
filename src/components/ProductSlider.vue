@@ -10,7 +10,7 @@
       class="carousel">
 
       <slide v-for="slide in slides" :key="slide.imageUrl" class="slider">
-        <img :src="'../assets/images/' + slide.imageUrl"  loading="lazy"/>
+        <img :src="slide.imageUrl"  loading="lazy"/>
         <p class="caption">{{ slide.caption }}</p>
       </slide>
 
@@ -34,14 +34,14 @@ export default {
   data() {
     return {
       slides: [
-        { imageUrl: 'Img1.png', caption: 'Knitted Joggers' },
-        { imageUrl: '2.png', caption: 'Full Sleeve' },
-        { imageUrl: '3.png', caption: 'Active T-Shirts' },
-        { imageUrl: '4.png', caption: 'Urban Shirts' },
-        { imageUrl: '1.png', caption: 'Knitted Joggers' },
-        { imageUrl: '2.png', caption: 'Full Sleeve' },
-        { imageUrl: '3.png', caption: 'Active T-Shirts' },
-        { imageUrl: '4.png', caption: 'Urban Shirts' },
+        { imageUrl: '../assets/images/Img1.png', caption: 'Knitted Joggers' },
+        { imageUrl: '../assets/images/2.png', caption: 'Full Sleeve' },
+        { imageUrl: '../assets/images/3.png', caption: 'Active T-Shirts' },
+        { imageUrl: '../assets/images/4.png', caption: 'Urban Shirts' },
+        { imageUrl: '../assets/images/1.png', caption: 'Knitted Joggers' },
+        { imageUrl: '../assets/images/2.png', caption: 'Full Sleeve' },
+        { imageUrl: '../assets/images/3.png', caption: 'Active T-Shirts' },
+        { imageUrl: '../assets/images/4.png', caption: 'Urban Shirts' },
       ],
       // breakpoints are mobile first
       // any settings not specified will fallback to the carousel settings
