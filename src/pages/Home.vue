@@ -1,6 +1,6 @@
 <script>
 import Navbar from '../components/Navbar.vue'
-import ProductSlider from '../components/productslider.vue'
+import ProductSlider from '../components/ProductSlider.vue'
 import feedbackSlider from '../components/FeedbackSlider.vue'
 import Footer from '../components/Footer.vue'
 export default {
