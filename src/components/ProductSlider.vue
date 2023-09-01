@@ -14,14 +14,14 @@ export default {
   data() {
     return {
       slides: [
-        { imageUrl: 'https://drive.google.com/file/d/1EoGiVdcYdyBcxi5pjdEXJpV-caW5DOww/view?usp=drive_link', caption: 'Knitted Joggers' },
-        { imageUrl: 'https://drive.google.com/file/d/1UGN0seq6qIobBwmXty9fzvvbuqx1lgbT/view?usp=drive_link', caption: 'Full Sleeve' },
-        { imageUrl: 'https://drive.google.com/file/d/1r4sEKvnTUui2HFMGy6GLDLgcVqrX7Htm/view?usp=drive_link', caption: 'Active T-Shirts' },
-        { imageUrl: 'https://drive.google.com/file/d/1NlfZDslSJurETQWL7aSp504Cn4piPVsC/view?usp=drive_link', caption: 'Urban Shirts' },
-        { imageUrl: 'https://drive.google.com/file/d/1EoGiVdcYdyBcxi5pjdEXJpV-caW5DOww/view?usp=drive_link', caption: 'Knitted Joggers' },
-        { imageUrl: 'https://drive.google.com/file/d/1UGN0seq6qIobBwmXty9fzvvbuqx1lgbT/view?usp=drive_link', caption: 'Full Sleeve' },
-        { imageUrl: 'https://drive.google.com/file/d/1r4sEKvnTUui2HFMGy6GLDLgcVqrX7Htm/view?usp=drive_link', caption: 'Active T-Shirts' },
-        { imageUrl: 'https://drive.google.com/file/d/1NlfZDslSJurETQWL7aSp504Cn4piPVsC/view?usp=drive_link', caption: 'Urban Shirts' },
+        { imageUrl: 'https://www.jiomart.com/images/product/original/469241099_lightgreen/knitted-joggers-with-drawstring-waist-model-469241099_lightgreen-0-202301082032.jpg?im=Resize=(500,630)', caption: 'Knitted Joggers' },
+        { imageUrl: 'https://images-eu.ssl-images-amazon.com/images/I/6122TGgCXiL._AC_UL600_SR600,600_.jpg', caption: 'Full Sleeve' },
+        { imageUrl: 'https://images.unsplash.com/photo-1516442443906-71605254b628?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8QWN0aXZlJTIwVCUyMFNoaXJ0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60', caption: 'Active T-Shirts' },
+        { imageUrl: 'https://imageseu.urbndata.com/is/image/UrbanOutfittersEU/0214579930914_010_b?$xlarge$&fit=constrain&qlt=80&wid=640', caption: 'Urban Shirts' },
+        { imageUrl: 'https://www.jiomart.com/images/product/original/469241099_lightgreen/knitted-joggers-with-drawstring-waist-model-469241099_lightgreen-0-202301082032.jpg?im=Resize=(500,630)', caption: 'Knitted Joggers' },
+        { imageUrl: 'https://images-eu.ssl-images-amazon.com/images/I/6122TGgCXiL._AC_UL600_SR600,600_.jpg', caption: 'Full Sleeve' },
+        { imageUrl: 'https://images.unsplash.com/photo-1516442443906-71605254b628?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8QWN0aXZlJTIwVCUyMFNoaXJ0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60', caption: 'Active T-Shirts' },
+        { imageUrl: 'https://imageseu.urbndata.com/is/image/UrbanOutfittersEU/0214579930914_010_b?$xlarge$&fit=constrain&qlt=80&wid=640', caption: 'Urban Shirts' },
       ],
       // breakpoints are mobile first
       // any settings not specified will fallback to the carousel settings

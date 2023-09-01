@@ -8,10 +8,10 @@ export default {
   data() { 
     return {
       products: [
-        {id : 1 , imgUrl : 'src/assets/images/41.png' , name : 'Shirts' , category : 'Men'  , animation : 'fade-right'},
-        {id : 2 , imgUrl : 'src/assets/images/42.png' , name : 'Printed T-Shirts' , category : 'Men' , animation : 'fade-up'},
-        {id : 3 , imgUrl : 'src/assets/images/43.png' , name : 'Plain T-Shirt' , category : 'Men' , animation : 'fade-down'},
-        {id : 4 , imgUrl : 'src/assets/images/44.png' , name : 'Polo T-Shirt' , category : 'Men' , animation : 'fade-left'},
+        {id : 1 , imgUrl : 'https://assets.ajio.com/medias/sys_master/root/20230602/dH6Z/6479226442f9e729d70a52b2/-1117Wx1400H-461119105-blue-MODEL.jpg' , name : 'Shirts' , category : 'Men'  , animation : 'fade-right'},
+        {id : 2 , imgUrl : 'https://media.boohoo.com/i/boohoo/amm00818_light%20pink_xl?w=900&qlt=default&fmt.jp2.qlt=70&fmt=auto&sm=fit' , name : 'Printed T-Shirts' , category : 'Men' , animation : 'fade-up'},
+        {id : 3 , imgUrl : 'https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/Q/W/121271_1625413024.jpg' , name : 'Plain T-Shirt' , category : 'Men' , animation : 'fade-down'},
+        {id : 4 , imgUrl : 'https://image.made-in-china.com/44f3j00HLWlqOnCEUbD/Men-Polo-Shirts-Custom-Men-Polo-T-Shirt-Men-s-T-Shirts.webp' , name : 'Polo T-Shirt' , category : 'Men' , animation : 'fade-left'},
         {id : 5 , imgUrl : 'src/assets/images/45.png' , name : 'Hoodies & Sweetshirt' , category : 'Men' , animation : 'fade-left'},
         {id : 6 , imgUrl : 'src/assets/images/46.png' , name : 'Jeans' , category : 'Men' , animation : 'fade-down'},
         {id : 7 , imgUrl : 'src/assets/images/47.png' , name : 'Activewear' , category : 'Men' , animation : 'fade-up'},
