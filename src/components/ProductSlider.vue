@@ -34,14 +34,14 @@ export default {
   data() {
     return {
       slides: [
-        { imageUrl: 'src/assets/images/Img1.png', caption: 'Knitted Joggers' },
-        { imageUrl: 'src/assets/images/2.png', caption: 'Full Sleeve' },
-        { imageUrl: 'src/assets/images/3.png', caption: 'Active T-Shirts' },
-        { imageUrl: 'src/assets/images/4.png', caption: 'Urban Shirts' },
-        { imageUrl: 'src/assets/images/1.png', caption: 'Knitted Joggers' },
-        { imageUrl: 'src/assets/images/2.png', caption: 'Full Sleeve' },
-        { imageUrl: 'src/assets/images/3.png', caption: 'Active T-Shirts' },
-        { imageUrl: 'src/assets/images/4.png', caption: 'Urban Shirts' },
+        { imageUrl: '../assets/images/Img1.png', caption: 'Knitted Joggers' },
+        { imageUrl: '../assets/images/2.png', caption: 'Full Sleeve' },
+        { imageUrl: '../assets/images/3.png', caption: 'Active T-Shirts' },
+        { imageUrl: '../assets/images/4.png', caption: 'Urban Shirts' },
+        { imageUrl: '../assets/images/1.png', caption: 'Knitted Joggers' },
+        { imageUrl: '../assets/images/2.png', caption: 'Full Sleeve' },
+        { imageUrl: '../assets/images/3.png', caption: 'Active T-Shirts' },
+        { imageUrl: '../assets/images/4.png', caption: 'Urban Shirts' },
       ],
       // breakpoints are mobile first
       // any settings not specified will fallback to the carousel settings

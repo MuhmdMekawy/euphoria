@@ -58,9 +58,9 @@ export default {
   <div class="headerSlider">
     <div class="container">
       <h4  data-aos="fade-right" data-aos-duration="1000">T-shirt / Tops</h4>
-      <h1 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="2000">Summer <br> Value Pack</h1>
-      <h4 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="3000">cool / colorful / comfy</h4>
-      <button data-aos="fade-right" data-aos-duration="1000" data-aos-delay="4000" class="shopButton">Shop Now</button>
+      <h1 data-aos="fade-down" data-aos-duration="2000">Summer <br> Value Pack</h1>
+      <h4 data-aos="fade-up" data-aos-duration="3000">cool / colorful / comfy</h4>
+      <button data-aos="fade-right" data-aos-duration="1000" class="shopButton">Shop Now</button>
     </div>
   </div>
   <div class="new-arrival">
