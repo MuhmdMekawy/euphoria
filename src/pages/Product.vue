@@ -9,7 +9,7 @@ export default {
   data() {
     return {
       products: [
-        {id : 1 , imgUrl : 'path0/src/assets/images/41.png' , name : 'Shirts' , category : 'Men'  , animation : 'fade-right'},
+        {id : 1 , imgUrl : '/src/assets/images/41.png' , name : 'Shirts' , category : 'Men'  , animation : 'fade-right'},
         {id : 2 , imgUrl : 'src/assets/images/42.png' , name : 'Printed T-Shirts' , category : 'Men' , animation : 'fade-up'},
         {id : 3 , imgUrl : 'src/assets/images/43.png' , name : 'Plain T-Shirt' , category : 'Men' , animation : 'fade-down'},
         {id : 4 , imgUrl : 'src/assets/images/44.png' , name : 'Polo T-Shirt' , category : 'Men' , animation : 'fade-left'},
