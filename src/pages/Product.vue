@@ -58,7 +58,7 @@ export default {
 <template>
   <div class="popup" :style="showPopup === true ? 'display : block' : 'display : none'">
     <button class="close"  @click="showPopup = false">X</button>
-    <video src="../assets/video/169951 (720p).mp4" controls autoplay loop muted></video>
+    <video src="" controls autoplay loop muted></video>
   </div>
   <Navbar :style="showPopup === true ? 'filter : blur(5px)' : 'filter : initial'"/>
   <div class="product" v-for="item in filterProduct" :key="item.id" :style="showPopup === true ? 'filter : blur(5px)' : 'filter : initial'">
@@ -72,7 +72,7 @@ export default {
           <h1>{{ item.name }}</h1>
           <div class="rating">
             <div class="stars">
-              <img src="../assets/images/Frame 10.png" alt="stars" loading="lazy">
+              <img src="../assets/images/Frame10.png" alt="stars" loading="lazy">
               <small>3.5</small>
             </div>
             <div class="comments">
