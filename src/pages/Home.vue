@@ -3,42 +3,42 @@ import Navbar from '../components/Navbar.vue'
 import ProductSlider from '../components/ProductSlider.vue'
 import feedbackSlider from '../components/FeedbackSlider.vue'
 import Footer from '../components/Footer.vue'
-
 export default {
   name: 'Home',
   data() { 
     return {
       products: [
-        {id : 1 , imgUrl : 'src/assets/images/41.png' , name : 'Shirts' , category : 'men'  , animation : 'fade-right'},
-        {id : 2 , imgUrl : 'src/assets/images/42.png' , name : 'Printed T-Shirts' , category : 'men' , animation : 'fade-up'},
-        {id : 3 , imgUrl : 'src/assets/images/43.png' , name : 'Plain T-Shirt' , category : 'men' , animation : 'fade-down'},
-        {id : 4 , imgUrl : 'src/assets/images/44.png' , name : 'Polo T-Shirt' , category : 'men' , animation : 'fade-left'},
-        {id : 5 , imgUrl : 'src/assets/images/45.png' , name : 'Hoodies & Sweetshirt' , category : 'men' , animation : 'fade-left'},
-        {id : 6 , imgUrl : 'src/assets/images/46.png' , name : 'Jeans' , category : 'men' , animation : 'fade-down'},
-        {id : 7 , imgUrl : 'src/assets/images/47.png' , name : 'Activewear' , category : 'men' , animation : 'fade-up'},
-        {id : 8 , imgUrl : 'src/assets/images/48.png' , name : 'Boxers' , category : 'men' , animation : 'fade-right'},
-        {id : 9 , imgUrl : 'src/assets/images/51.png' , name : 'Hoodies & Sweetshirt' , category : 'women' , animation : 'fade-right'},
-        {id : 10 , imgUrl : 'src/assets/images/52.png' , name : 'Coats & Parkas' , category : 'women' , animation : 'fade-up'},
-        {id : 11 , imgUrl : 'src/assets/images/53.png' , name : 'Tees & T-Shirt' , category : 'women' , animation : 'fade-down'},
-        {id : 12 , imgUrl : 'src/assets/images/54.png' , name : 'Boxers' , category : 'women' , animation : 'fade-left'},
-        {id : 13 , imgUrl : 'src/assets/images/55.png' , name : 'Black Sweatshirt with ...' , category : 'women' , animation : 'fade-up'},
-        {id : 14 , imgUrl : 'src/assets/images/56.png' , name : 'line Pattern Black H...' , category : 'women' , animation : 'fade-down'},
-        {id : 15 , imgUrl : 'src/assets/images/57.png' , name : 'Black Shorts' , category : 'women' , animation : 'fade-right'},
-        {id : 16 , imgUrl : 'src/assets/images/58.png' , name : 'Levender Hoodie with ....' , category : 'women' , animation : 'fade-left'},
+        {id : 1 , imgUrl : 'src/assets/images/41.png' , name : 'Shirts' , category : 'Men'  , animation : 'fade-right'},
+        {id : 2 , imgUrl : 'src/assets/images/42.png' , name : 'Printed T-Shirts' , category : 'Men' , animation : 'fade-up'},
+        {id : 3 , imgUrl : 'src/assets/images/43.png' , name : 'Plain T-Shirt' , category : 'Men' , animation : 'fade-down'},
+        {id : 4 , imgUrl : 'src/assets/images/44.png' , name : 'Polo T-Shirt' , category : 'Men' , animation : 'fade-left'},
+        {id : 5 , imgUrl : 'src/assets/images/45.png' , name : 'Hoodies & Sweetshirt' , category : 'Men' , animation : 'fade-left'},
+        {id : 6 , imgUrl : 'src/assets/images/46.png' , name : 'Jeans' , category : 'Men' , animation : 'fade-down'},
+        {id : 7 , imgUrl : 'src/assets/images/47.png' , name : 'Activewear' , category : 'Men' , animation : 'fade-up'},
+        {id : 8 , imgUrl : 'src/assets/images/48.png' , name : 'Boxers' , category : 'Men' , animation : 'fade-right'},
+        {id : 9 , imgUrl : 'src/assets/images/51.png' , name : 'Hoodies & Sweetshirt' , category : 'Women' , animation : 'fade-right'},
+        {id : 10 , imgUrl : 'src/assets/images/52.png' , name : 'Coats & Parkas' , category : 'Women' , animation : 'fade-up'},
+        {id : 11 , imgUrl : 'src/assets/images/53.png' , name : 'Tees & T-Shirt' , category : 'Women' , animation : 'fade-down'},
+        {id : 12 , imgUrl : 'src/assets/images/54.png' , name : 'Boxers' , category : 'Women' , animation : 'fade-left'},
+        {id : 13 , imgUrl : 'src/assets/images/55.png' , name : 'Black Sweatshirt' , category : 'Women' , animation : 'fade-up'},
+        {id : 14 , imgUrl : 'src/assets/images/56.png' , name : 'line Pattern Black' , category : 'Women' , animation : 'fade-down'},
+        {id : 15 , imgUrl : 'src/assets/images/57.png' , name : 'Black Shorts' , category : 'Women' , animation : 'fade-right'},
+        {id : 16 , imgUrl : 'src/assets/images/58.png' , name : 'Levender Hoodie' , category : 'Women' , animation : 'fade-left'},
       ]
     }
   },
   computed: {
     filterMenCloths() {
-      return this.products.filter((f)=> f.category === 'men')
+      return this.products.filter((f)=> f.category === 'Men')
     },
     filterWomenCloths() {
-      return this.products.filter((f)=> f.category === 'women')
+      return this.products.filter((f)=> f.category === 'Women')
     },
   },
   methods: {
     navigateToProduct(productId) {
-      window.location.assign('/product/' + productId);
+      // window.location.assign('/product/' + productId);
+      this.$router.push({ name: 'Product', params: { id: productId } });
     }
   },
   components: {
@@ -147,7 +147,7 @@ export default {
         Categories For Men
       </h3>
       <div class="content">
-        <a href="" class="cont" :data-aos="item.animation" data-aos-duration="2000" v-for="item in filterMenCloths" :key="item.id">
+        <a @click="navigateToProduct(item.id)" class="cont" :data-aos="item.animation" data-aos-duration="2000" v-for="item in filterMenCloths" :key="item.id">
           <div class="image">
             <img :src="item.imgUrl" alt="img" loading="lazy">
           </div>
@@ -179,7 +179,7 @@ export default {
       </div>
     </div>
   </div>
-    <div class="women">
+  <div class="women">
     <div class="container">
       <h3 class="special-Head">
         Categories For Women

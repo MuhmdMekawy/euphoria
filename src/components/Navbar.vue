@@ -1,20 +1,27 @@
 <script>
-
+export default {
+  name: 'Navbar',
+  data() {
+    return {
+      activeLink : 'home'
+    }
+  }
+}
 </script>
 
 <template>
   <div class="navBar">
     <div class="container">
       <div class="content">
-        <div class="logo">
+        <a href="/home" class="logo">
           <img src="../assets/images/logo.png" alt="logo" loading="lazy">
-        </div>
+        </a>
         <ul class="desktop-view">
-          <li class="active"><router-link to=''>Shop</router-link></li>
-          <li><router-link to=''>Men</router-link></li>
-          <li><router-link to=''>Women</router-link></li>
-          <li><router-link to=''>Combos</router-link></li>
-          <li><router-link to=''>Joggers</router-link></li>
+          <li @click = "activeLink = 'home'" :class="activeLink === 'home' ? 'active' : ''"><a href="/home">Shop</a></li>
+          <li @click = "activeLink = 'men'" :class="activeLink === 'men' ? 'active' : ''"><a href="#">Men</a></li>
+          <li @click = "activeLink = 'women'" :class="activeLink === 'women' ? 'active' : ''"><a href="#">Women</a></li>
+          <li @click = "activeLink = 'combos'" :class="activeLink === 'combos' ? 'active' : ''"><a href="#">Combos</a></li>
+          <li @click = "activeLink = 'joggers'" :class="activeLink === 'joggers' ? 'active' : ''"><a href="#">Joggers</a></li>
         </ul>
         <div class="tabs desktop-view">
           <button>
@@ -48,11 +55,11 @@
             </div>
             <div class="offcanvas-body">
               <ul>
-          <li class="active"><router-link to=''>Shop</router-link></li>
-          <li><router-link to=''>Men</router-link></li>
-          <li><router-link to=''>Women</router-link></li>
-          <li><router-link to=''>Combos</router-link></li>
-          <li><router-link to=''>Joggers</router-link></li>
+          <li @click = "activeLink = 'home'" :class="activeLink === 'home' ? 'active' : ''"><a href="#" to='/home'>Shop</a ></li>
+          <li @click = "activeLink = 'men'" :class="activeLink === 'men' ? 'active' : ''"><a href="#">Men</a></li>
+          <li @click = "activeLink = 'women'" :class="activeLink === 'women' ? 'active' : ''"><a href="#">Women</a></li>
+          <li @click = "activeLink = 'combos'" :class="activeLink === 'combos' ? 'active' : ''"><a href="#">Combos</a></li>
+          <li @click = "activeLink = 'joggers'" :class="activeLink === 'joggers' ? 'active' : ''"><a href="#">Joggers</a></li>
               </ul>
               <div class="tabs">
                 <button>
@@ -82,6 +89,7 @@
 <style lang="scss" scoped>
   .navBar{
     padding: 31px 0;
+    border-bottom: 1px solid #BEBCBD;
     .content{
       display: flex;
       flex-direction: row;

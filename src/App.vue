@@ -1,26 +1,26 @@
 <template>
   <div>
-    <router-view ></router-view>
+    <!-- <Navbar /> -->
+    <router-view />
+    <!-- <Footer /> -->
   </div>
 </template>
 
 <script>
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-  import Home from './pages/Home.vue'
-  import Product from './pages/Product.vue'
+import Navbar from './components/Navbar.vue';
+import Footer from './components/Footer.vue';
   import './style.css'
   export default {
     name: 'App',
     data() {
-      return {
-        
-      }
-    },
-    // components: {
-    //   Home,
-    //   Product
-    // }
+      return {}
+  },
+  components: {
+    Navbar,
+    Footer
+    }
   }
 </script>
 

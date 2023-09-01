@@ -11,7 +11,7 @@ const router = createRouter({
   history: createWebHashHistory(),
   routes: [
     { path: '/', name : 'Home' , component: Home },
-    { path: '/product/:id', name : 'Product' ,component: Product },
+    { path: '/product/:id/', name : 'Product' ,component: Product },
   //   { path: '/about', component: About },
   ]
 })
