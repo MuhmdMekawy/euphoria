@@ -9,7 +9,7 @@ export default {
   data() {
     return {
       products: [
-        {id : 1 , imgUrl : 'src/assets/images/41.png' , name : 'Shirts' , category : 'Men'  , animation : 'fade-right'},
+        {id : 1 , imgUrl : 'path0/src/assets/images/41.png' , name : 'Shirts' , category : 'Men'  , animation : 'fade-right'},
         {id : 2 , imgUrl : 'src/assets/images/42.png' , name : 'Printed T-Shirts' , category : 'Men' , animation : 'fade-up'},
         {id : 3 , imgUrl : 'src/assets/images/43.png' , name : 'Plain T-Shirt' , category : 'Men' , animation : 'fade-down'},
         {id : 4 , imgUrl : 'src/assets/images/44.png' , name : 'Polo T-Shirt' , category : 'Men' , animation : 'fade-left'},
@@ -58,7 +58,7 @@ export default {
 <template>
   <div class="popup" :style="showPopup === true ? 'display : block' : 'display : none'">
     <button class="close"  @click="showPopup = false">X</button>
-    <video src="" controls autoplay loop muted></video>
+    <video src="../assets/video/169951(720p).mp4" controls autoplay loop muted></video>
   </div>
   <Navbar :style="showPopup === true ? 'filter : blur(5px)' : 'filter : initial'"/>
   <div class="product" v-for="item in filterProduct" :key="item.id" :style="showPopup === true ? 'filter : blur(5px)' : 'filter : initial'">
