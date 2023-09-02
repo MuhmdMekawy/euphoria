@@ -18,6 +18,7 @@ const router = createRouter({
     { path: '/cart/:id', name : 'Cart' , component: Cart },
     { path: '/confirmed', name: 'Confirmed', component: Confirmed },
     { path: '/:catchAll(.*)', component: NotFound },
+    { path: '/home', redirect: '/' },
   ]
 })
 // Initialize AOS
