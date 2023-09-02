@@ -8,22 +8,22 @@ export default {
   data() { 
     return {
       products: [
-        {id : 1 , imgUrl : 'https://assets.ajio.com/medias/sys_master/root/20230602/dH6Z/6479226442f9e729d70a52b2/-1117Wx1400H-461119105-blue-MODEL.jpg' , name : 'Shirts' , category : 'Men'  , cart : 'false' ,animation : 'fade-right'},
+        {id : 1 , imgUrl : 'https://assets.ajio.com/medias/sys_master/root/20230602/dH6Z/6479226442f9e729d70a52b2/-1117Wx1400H-461119105-blue-MODEL.jpg' , name : 'Shirts' , category : 'Men'  , cart : 'false' ,animation : 'fade-down'},
         {id : 2 , imgUrl : 'https://media.boohoo.com/i/boohoo/amm00818_light%20pink_xl?w=900&qlt=default&fmt.jp2.qlt=70&fmt=auto&sm=fit' , name : 'Printed T-Shirts' , category : 'Men' , cart : 'false' ,animation : 'fade-up'},
         {id : 3 , imgUrl : 'https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/Q/W/121271_1625413024.jpg' , name : 'Plain T-Shirt' , category : 'Men' , cart : 'false' ,animation : 'fade-down'},
-        {id : 4 , imgUrl : 'https://image.made-in-china.com/44f3j00HLWlqOnCEUbD/Men-Polo-Shirts-Custom-Men-Polo-T-Shirt-Men-s-T-Shirts.webp' , name : 'Polo T-Shirt' , category : 'Men' , cart : 'false' ,animation : 'fade-left'},
-        {id : 5 , imgUrl : 'https://www.stedman.eu/out/pictures-2023/zoom/ST4100_model.jpg' , name : 'Hoodies & Sweetshirt' , category : 'Men' , cart : 'false' ,animation : 'fade-left'},
+        {id : 4 , imgUrl : 'https://image.made-in-china.com/44f3j00HLWlqOnCEUbD/Men-Polo-Shirts-Custom-Men-Polo-T-Shirt-Men-s-T-Shirts.webp' , name : 'Polo T-Shirt' , category : 'Men' , cart : 'false' ,animation : 'fade-up'},
+        {id : 5 , imgUrl : 'https://www.stedman.eu/out/pictures-2023/zoom/ST4100_model.jpg' , name : 'Hoodies & Sweetshirt' , category : 'Men' , cart : 'false' ,animation : 'fade-up'},
         {id : 6 , imgUrl : 'https://cdn.shopify.com/s/files/1/0608/7874/9892/products/G7Pvi3ylJ-8905566215245_8.webp?v=1686914655' , name : 'Jeans' , category : 'Men' , cart : 'false' ,animation : 'fade-down'},
         {id : 7 , imgUrl : 'https://images.hellomagazine.com/horizon/original_aspect_ratio/a6469927338c-marks-and-spencer-mens-sportswear-best-z.jpg' , name : 'Activewear' , category : 'Men' , cart : 'false' ,animation : 'fade-up'},
-        {id : 8 , imgUrl : 'https://target.scene7.com/is/image/Target/GUEST_0dcc404f-28cb-445c-927b-0e3a9bbff53f' , name : 'Boxers' , category : 'Men' , cart : 'false' ,animation : 'fade-right'},
-        {id : 9 , imgUrl : 'https://media.boohoo.com/i/boohoo/gzz24242_washed%20khaki_xl?w=900&qlt=default&fmt.jp2.qlt=70&fmt=auto&sm=fit' , name : 'Hoodies & Sweetshirt' , category : 'Women' , cart : 'false' ,animation : 'fade-right'},
+        {id : 8 , imgUrl : 'https://target.scene7.com/is/image/Target/GUEST_0dcc404f-28cb-445c-927b-0e3a9bbff53f' , name : 'Boxers' , category : 'Men' , cart : 'false' ,animation : 'fade-down'},
+        {id : 9 , imgUrl : 'https://media.boohoo.com/i/boohoo/gzz24242_washed%20khaki_xl?w=900&qlt=default&fmt.jp2.qlt=70&fmt=auto&sm=fit' , name : 'Hoodies & Sweetshirt' , category : 'Women' , cart : 'false' ,animation : 'fade-down'},
         {id : 10 , imgUrl : 'https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/33/881572/1.jpg?8471' , name : 'Coats & Parkas' , category : 'Women' , cart : 'false' ,animation : 'fade-up'},
         {id : 11 , imgUrl : 'https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/93/674944/1.jpg?7217' , name : 'Tees & T-Shirt' , category : 'Women' , cart : 'false' ,animation : 'fade-down'},
-        {id : 12 , imgUrl : 'https://img.ltwebstatic.com/gspCenter/goodsImage/2022/10/28/3999762022_1006935/36A3F7687DFE64D956994694A1141D4E_thumbnail_720x.webp' , name : 'Boxers' , category : 'Women' , cart : 'false' ,animation : 'fade-left'},
+        {id : 12 , imgUrl : 'https://img.ltwebstatic.com/gspCenter/goodsImage/2022/10/28/3999762022_1006935/36A3F7687DFE64D956994694A1141D4E_thumbnail_720x.webp' , name : 'Boxers' , category : 'Women' , cart : 'false' ,animation : 'fade-up'},
         {id : 13 , imgUrl : 'https://us.mavi.com/cdn/shop/files/M168837-900_700_1100_1.jpg?v=1685573015' , name : 'Black Sweatshirt' , category : 'Women' , cart : 'false' ,animation : 'fade-up'},
         {id : 14 , imgUrl : 'https://images.meesho.com/images/products/155282372/wvm8a_512.webp' , name : 'line Pattern Black' , category : 'Women' , cart : 'false' ,animation : 'fade-down'},
-        {id : 15 , imgUrl : 'https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/36/430414/1.jpg?1129' , name : 'Black Shorts' , category : 'Women' , cart : 'false' ,animation : 'fade-right'},
-        {id : 16 , imgUrl : 'https://babeonclothing.com/cdn/shop/products/monochromatic-sweatshirt-mockup-featuring-a-woman-sitting-in-a-studio-32819copy.jpg?v=1652512309' , name : 'Levender Hoodie' , category : 'Women' , cart : 'false' ,animation : 'fade-left'},
+        {id : 15 , imgUrl : 'https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/36/430414/1.jpg?1129' , name : 'Black Shorts' , category : 'Women' , cart : 'false' ,animation : 'fade-down'},
+        {id : 16 , imgUrl : 'https://babeonclothing.com/cdn/shop/products/monochromatic-sweatshirt-mockup-featuring-a-woman-sitting-in-a-studio-32819copy.jpg?v=1652512309' , name : 'Levender Hoodie' , category : 'Women' , cart : 'false' ,animation : 'fade-up'},
       ]
     }
   },
@@ -57,15 +57,15 @@ export default {
   <Navbar />
   <div class="headerSlider">
     <div class="container">
-      <h4  data-aos="fade-right" data-aos-duration="1000">T-shirt / Tops</h4>
+      <h4  data-aos="fade-up" data-aos-duration="1000">T-shirt / Tops</h4>
       <h1 data-aos="fade-down" data-aos-duration="2000">Summer <br> Value Pack</h1>
       <h4 data-aos="fade-up" data-aos-duration="3000">cool / colorful / comfy</h4>
-      <button data-aos="fade-right" data-aos-duration="1000" class="shopButton">Shop Now</button>
+      <button data-aos="fade-up" data-aos-duration="1000" class="shopButton">Shop Now</button>
     </div>
   </div>
   <div class="new-arrival">
     <div class="container">
-      <h3 class="special-Head"  data-aos="fade-right" data-aos-duration="1000">
+      <h3 class="special-Head"  data-aos="fade-up" data-aos-duration="1000">
         New Arrival
       </h3>
       <ProductSlider />
@@ -73,12 +73,12 @@ export default {
   </div>
   <div class="big-sale">
     <div class="container">
-      <h3 class="special-Head"  data-aos="fade-right" data-aos-duration="2000">
+      <h3 class="special-Head"  data-aos="fade-up" data-aos-duration="2000">
         Big Saving Zone
       </h3>
       <div class="content">
         <div class="top">
-          <div class="cont" data-aos="fade-right" data-aos-duration="2000">
+          <div class="cont" data-aos="fade-up" data-aos-duration="2000">
             <img src="../assets/images/11.png" alt="">
             <h4>Hawaiian <br> Shirts</h4>
             <p>Dress up in summer vibe</p>
@@ -99,7 +99,7 @@ export default {
             </svg>
             <button>SHOP NOW</button>
           </div>
-          <div class="cont" data-aos="fade-left" data-aos-duration="2000">
+          <div class="cont" data-aos="fade-down" data-aos-duration="2000">
             <img src="../assets/images/13.png" alt="">
             <h4>Hawaiian <br> Shirts</h4>
             <p>Dress up in summer vibe</p>
@@ -111,7 +111,7 @@ export default {
           </div>
         </div>
         <div class="bottom">
-          <div class="cont" data-aos="fade-up-left" data-aos-duration="3000">
+          <div class="cont" data-aos="fade-up" data-aos-duration="3000">
             <img src="../assets/images/14.png" alt="">
             <h4>Urban  <br> T-Shirt</h4>
             <p>Live In Confort</p>
@@ -121,7 +121,7 @@ export default {
             </svg>
             <button>SHOP NOW</button>
           </div>
-          <div class="cont" data-aos="fade-up-right" data-aos-duration="3000">
+          <div class="cont" data-aos="fade-down" data-aos-duration="3000">
             <img src="../assets/images/15.png" alt="">
             <h4>Oversized <br> Shirts</h4>
             <p>Street Style Icon</p>
@@ -142,7 +142,7 @@ export default {
       <p>In our journey to improve everyday fashion, euphoria presents EVERYDAY wear range - Comfortable & Affordable fashion 24/7</p>
       <button>Shop Now</button>
     </div>
-    <img  data-aos="fade-left" data-aos-duration="2000" src="../assets/images/22.png" alt="image" loading="lazy">
+    <img  data-aos="fade-down" data-aos-duration="2000" src="../assets/images/22.png" alt="image" loading="lazy">
   </div>
   <div class="men">
     <div class="container">

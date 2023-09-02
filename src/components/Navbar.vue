@@ -90,6 +90,9 @@ export default {
   .navBar{
     padding: 31px 0;
     border-bottom: 1px solid #BEBCBD;
+    .offcanvas{
+      max-width: 320px !important;
+    }
     .content{
       display: flex;
       flex-direction: row;
