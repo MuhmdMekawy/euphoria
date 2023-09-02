@@ -13,11 +13,11 @@ export default {
   <div class="navBar">
     <div class="container">
       <div class="content">
-        <a href="/home" class="logo">
+        <a href="/" class="logo">
           <img src="../assets/images/logo.png" alt="logo" loading="lazy">
         </a>
         <ul class="desktop-view">
-          <li @click = "activeLink = 'home'" :class="activeLink === 'home' ? 'active' : ''"><a href="/home">Shop</a></li>
+          <li @click = "activeLink = 'home'" :class="activeLink === 'home' ? 'active' : ''"><a href="/">Shop</a></li>
           <li @click = "activeLink = 'men'" :class="activeLink === 'men' ? 'active' : ''"><a href="#">Men</a></li>
           <li @click = "activeLink = 'women'" :class="activeLink === 'women' ? 'active' : ''"><a href="#">Women</a></li>
           <li @click = "activeLink = 'combos'" :class="activeLink === 'combos' ? 'active' : ''"><a href="#">Combos</a></li>
@@ -55,11 +55,11 @@ export default {
             </div>
             <div class="offcanvas-body">
               <ul>
-          <li @click = "activeLink = 'home'" :class="activeLink === 'home' ? 'active' : ''"><a href="#" to='/home'>Shop</a ></li>
-          <li @click = "activeLink = 'men'" :class="activeLink === 'men' ? 'active' : ''"><a href="#">Men</a></li>
-          <li @click = "activeLink = 'women'" :class="activeLink === 'women' ? 'active' : ''"><a href="#">Women</a></li>
-          <li @click = "activeLink = 'combos'" :class="activeLink === 'combos' ? 'active' : ''"><a href="#">Combos</a></li>
-          <li @click = "activeLink = 'joggers'" :class="activeLink === 'joggers' ? 'active' : ''"><a href="#">Joggers</a></li>
+                <li @click = "activeLink = 'home'" :class="activeLink === 'home' ? 'active' : ''"><a href="/">Shop</a ></li>
+                <li @click = "activeLink = 'men'" :class="activeLink === 'men' ? 'active' : ''"><a href="#">Men</a></li>
+                <li @click = "activeLink = 'women'" :class="activeLink === 'women' ? 'active' : ''"><a href="#">Women</a></li>
+                <li @click = "activeLink = 'combos'" :class="activeLink === 'combos' ? 'active' : ''"><a href="#">Combos</a></li>
+                <li @click = "activeLink = 'joggers'" :class="activeLink === 'joggers' ? 'active' : ''"><a href="#">Joggers</a></li>
               </ul>
               <div class="tabs">
                 <button>
