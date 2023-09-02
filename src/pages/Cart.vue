@@ -302,7 +302,7 @@ export default {
       align-items: flex-start;
       padding: 30px 0 50px;
       @media (max-width : 767px){
-        flex-wrap: wrap;
+        flex-wrap: wrap-reverse;
         gap: 80px;
       }
       .left{
