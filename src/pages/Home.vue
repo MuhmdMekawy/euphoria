@@ -539,7 +539,7 @@ export default {
         cursor: pointer;
         .image{
           margin-bottom: 20px;
-          max-height: 310px;
+          max-height: 245px;
           object-position: center;
           overflow: hidden;
         }
