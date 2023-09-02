@@ -14,9 +14,9 @@ export default {
 <Navbar />
   <div class="confirm">
     <div class="image">
-      <img src="../assets/images/orderConfirmed.png" alt="image" loading="lazy">
+      <img data-aos-duration="1000" data-aos="fade-down" src="../assets/images/orderConfirmed.png" alt="image" loading="lazy">
     </div>
-    <button><a href="/home">Back to Home</a></button>
+    <button><a href="/">Back to Home</a></button>
   </div>
 <Footer />
 </template>

@@ -11,11 +11,11 @@ import Footer from '../components/Footer.vue'
   <Navbar />
   <div class="notfound">
     <div class="image">
-      <img src="../assets/images/notfound.png" alt="image" loading="lazy">
+      <img  data-aos-duration="2000" data-aos="fade-down" src="../assets/images/notfound.png" alt="image" loading="lazy">
     </div>
     <h1>Oops! Page not found</h1>
     <p>The page you are looking for might have been removed or temporarily unavailable.</p>
-    <button><a href="/home">Back to Home</a></button>
+    <button><a href="/">Back to Home</a></button>
   </div>
   <Footer />
 </template>
