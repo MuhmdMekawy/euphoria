@@ -91,6 +91,9 @@ export default {
         font-size: 22px;
         font-weight: 500;
         color: #3C4242;
+        @media (max-width : 400px){
+          font-size: 15px;
+        }
       }
     }
   }
