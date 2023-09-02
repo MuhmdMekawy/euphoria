@@ -112,7 +112,7 @@ export default {
               <input type="text" placeholder="enter coupon">
               <button type="submit">Apply Coupon</button>
             </form>
-            <button><a href="/home">Continue Shopping</a></button>
+            <button><a href="/">Continue Shopping</a></button>
           </div>
           <div class="right">
             <div class="tab">
