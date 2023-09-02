@@ -15,12 +15,12 @@ export default {
     return {
       slides: [
         { imageUrl: 'https://www.jiomart.com/images/product/original/469241099_lightgreen/knitted-joggers-with-drawstring-waist-model-469241099_lightgreen-0-202301082032.jpg?im=Resize=(500,630)', caption: 'Knitted Joggers' },
-        { imageUrl: 'https://images-eu.ssl-images-amazon.com/images/I/6122TGgCXiL._AC_UL600_SR600,600_.jpg', caption: 'Full Sleeve' },
-        { imageUrl: 'https://images.unsplash.com/photo-1516442443906-71605254b628?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8QWN0aXZlJTIwVCUyMFNoaXJ0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60', caption: 'Active T-Shirts' },
+        { imageUrl: 'https://www.stedman.eu/out/pictures-2023/zoom/ST3400_model.jpg', caption: 'Full Sleeve' },
+        { imageUrl: 'https://www.stedman.eu/out/pictures-2023/zoom/ST8400_model.jpg', caption: 'Active T-Shirts' },
         { imageUrl: 'https://imageseu.urbndata.com/is/image/UrbanOutfittersEU/0214579930914_010_b?$xlarge$&fit=constrain&qlt=80&wid=640', caption: 'Urban Shirts' },
         { imageUrl: 'https://www.jiomart.com/images/product/original/469241099_lightgreen/knitted-joggers-with-drawstring-waist-model-469241099_lightgreen-0-202301082032.jpg?im=Resize=(500,630)', caption: 'Knitted Joggers' },
-        { imageUrl: 'https://images-eu.ssl-images-amazon.com/images/I/6122TGgCXiL._AC_UL600_SR600,600_.jpg', caption: 'Full Sleeve' },
-        { imageUrl: 'https://images.unsplash.com/photo-1516442443906-71605254b628?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8QWN0aXZlJTIwVCUyMFNoaXJ0c3xlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60', caption: 'Active T-Shirts' },
+        { imageUrl: 'https://www.stedman.eu/out/pictures-2023/zoom/ST3400_model.jpg', caption: 'Full Sleeve' },
+        { imageUrl: 'https://www.stedman.eu/out/pictures-2023/zoom/ST8400_model.jpg', caption: 'Active T-Shirts' },
         { imageUrl: 'https://imageseu.urbndata.com/is/image/UrbanOutfittersEU/0214579930914_010_b?$xlarge$&fit=constrain&qlt=80&wid=640', caption: 'Urban Shirts' },
       ],
       // breakpoints are mobile first

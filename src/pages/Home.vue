@@ -1,29 +1,29 @@
 <script>
 import Navbar from '../components/Navbar.vue'
 import ProductSlider from '../components/ProductSlider.vue'
-import feedbackSlider from '../components/FeedbackSlider.vue'
+import FeedbackSlider from '../components/FeedbackSlider.vue'
 import Footer from '../components/Footer.vue'
 export default {
   name: 'Home',
   data() { 
     return {
       products: [
-        {id : 1 , imgUrl : 'https://assets.ajio.com/medias/sys_master/root/20230602/dH6Z/6479226442f9e729d70a52b2/-1117Wx1400H-461119105-blue-MODEL.jpg' , name : 'Shirts' , category : 'Men'  , animation : 'fade-right'},
-        {id : 2 , imgUrl : 'https://media.boohoo.com/i/boohoo/amm00818_light%20pink_xl?w=900&qlt=default&fmt.jp2.qlt=70&fmt=auto&sm=fit' , name : 'Printed T-Shirts' , category : 'Men' , animation : 'fade-up'},
-        {id : 3 , imgUrl : 'https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/Q/W/121271_1625413024.jpg' , name : 'Plain T-Shirt' , category : 'Men' , animation : 'fade-down'},
-        {id : 4 , imgUrl : 'https://image.made-in-china.com/44f3j00HLWlqOnCEUbD/Men-Polo-Shirts-Custom-Men-Polo-T-Shirt-Men-s-T-Shirts.webp' , name : 'Polo T-Shirt' , category : 'Men' , animation : 'fade-left'},
-        {id : 5 , imgUrl : 'https://www.stedman.eu/out/pictures-2023/zoom/ST4100_model.jpg' , name : 'Hoodies & Sweetshirt' , category : 'Men' , animation : 'fade-left'},
-        {id : 6 , imgUrl : 'https://cdn.shopify.com/s/files/1/0608/7874/9892/products/G7Pvi3ylJ-8905566215245_8.webp?v=1686914655' , name : 'Jeans' , category : 'Men' , animation : 'fade-down'},
-        {id : 7 , imgUrl : 'https://images.hellomagazine.com/horizon/original_aspect_ratio/a6469927338c-marks-and-spencer-mens-sportswear-best-z.jpg' , name : 'Activewear' , category : 'Men' , animation : 'fade-up'},
-        {id : 8 , imgUrl : 'https://target.scene7.com/is/image/Target/GUEST_0dcc404f-28cb-445c-927b-0e3a9bbff53f' , name : 'Boxers' , category : 'Men' , animation : 'fade-right'},
-        {id : 9 , imgUrl : 'https://media.boohoo.com/i/boohoo/gzz24242_washed%20khaki_xl?w=900&qlt=default&fmt.jp2.qlt=70&fmt=auto&sm=fit' , name : 'Hoodies & Sweetshirt' , category : 'Women' , animation : 'fade-right'},
-        {id : 10 , imgUrl : 'https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/33/881572/1.jpg?8471' , name : 'Coats & Parkas' , category : 'Women' , animation : 'fade-up'},
-        {id : 11 , imgUrl : 'https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/37/721292/1.jpg?6412' , name : 'Tees & T-Shirt' , category : 'Women' , animation : 'fade-down'},
-        {id : 12 , imgUrl : 'https://i5.walmartimages.com/asr/bcdfd180-6785-411f-9d83-a40e42cb36d0.6ec6de70e6c1b6bd55f6755bb658d74b.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF' , name : 'Boxers' , category : 'Women' , animation : 'fade-left'},
-        {id : 13 , imgUrl : 'https://us.mavi.com/cdn/shop/files/M168837-900_700_1100_1.jpg?v=1685573015' , name : 'Black Sweatshirt' , category : 'Women' , animation : 'fade-up'},
-        {id : 14 , imgUrl : 'https://images.meesho.com/images/products/155282372/wvm8a_512.webp' , name : 'line Pattern Black' , category : 'Women' , animation : 'fade-down'},
-        {id : 15 , imgUrl : 'https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/36/430414/1.jpg?1129' , name : 'Black Shorts' , category : 'Women' , animation : 'fade-right'},
-        {id : 16 , imgUrl : 'https://babeonclothing.com/cdn/shop/products/monochromatic-sweatshirt-mockup-featuring-a-woman-sitting-in-a-studio-32819copy.jpg?v=1652512309' , name : 'Levender Hoodie' , category : 'Women' , animation : 'fade-left'},
+        {id : 1 , imgUrl : 'https://assets.ajio.com/medias/sys_master/root/20230602/dH6Z/6479226442f9e729d70a52b2/-1117Wx1400H-461119105-blue-MODEL.jpg' , name : 'Shirts' , category : 'Men'  , cart : 'false' ,animation : 'fade-right'},
+        {id : 2 , imgUrl : 'https://media.boohoo.com/i/boohoo/amm00818_light%20pink_xl?w=900&qlt=default&fmt.jp2.qlt=70&fmt=auto&sm=fit' , name : 'Printed T-Shirts' , category : 'Men' , cart : 'false' ,animation : 'fade-up'},
+        {id : 3 , imgUrl : 'https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/Q/W/121271_1625413024.jpg' , name : 'Plain T-Shirt' , category : 'Men' , cart : 'false' ,animation : 'fade-down'},
+        {id : 4 , imgUrl : 'https://image.made-in-china.com/44f3j00HLWlqOnCEUbD/Men-Polo-Shirts-Custom-Men-Polo-T-Shirt-Men-s-T-Shirts.webp' , name : 'Polo T-Shirt' , category : 'Men' , cart : 'false' ,animation : 'fade-left'},
+        {id : 5 , imgUrl : 'https://www.stedman.eu/out/pictures-2023/zoom/ST4100_model.jpg' , name : 'Hoodies & Sweetshirt' , category : 'Men' , cart : 'false' ,animation : 'fade-left'},
+        {id : 6 , imgUrl : 'https://cdn.shopify.com/s/files/1/0608/7874/9892/products/G7Pvi3ylJ-8905566215245_8.webp?v=1686914655' , name : 'Jeans' , category : 'Men' , cart : 'false' ,animation : 'fade-down'},
+        {id : 7 , imgUrl : 'https://images.hellomagazine.com/horizon/original_aspect_ratio/a6469927338c-marks-and-spencer-mens-sportswear-best-z.jpg' , name : 'Activewear' , category : 'Men' , cart : 'false' ,animation : 'fade-up'},
+        {id : 8 , imgUrl : 'https://target.scene7.com/is/image/Target/GUEST_0dcc404f-28cb-445c-927b-0e3a9bbff53f' , name : 'Boxers' , category : 'Men' , cart : 'false' ,animation : 'fade-right'},
+        {id : 9 , imgUrl : 'https://media.boohoo.com/i/boohoo/gzz24242_washed%20khaki_xl?w=900&qlt=default&fmt.jp2.qlt=70&fmt=auto&sm=fit' , name : 'Hoodies & Sweetshirt' , category : 'Women' , cart : 'false' ,animation : 'fade-right'},
+        {id : 10 , imgUrl : 'https://eg.jumia.is/unsafe/fit-in/500x500/filters:fill(white)/product/33/881572/1.jpg?8471' , name : 'Coats & Parkas' , category : 'Women' , cart : 'false' ,animation : 'fade-up'},
+        {id : 11 , imgUrl : 'https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/93/674944/1.jpg?7217' , name : 'Tees & T-Shirt' , category : 'Women' , cart : 'false' ,animation : 'fade-down'},
+        {id : 12 , imgUrl : 'https://img.ltwebstatic.com/gspCenter/goodsImage/2022/10/28/3999762022_1006935/36A3F7687DFE64D956994694A1141D4E_thumbnail_720x.webp' , name : 'Boxers' , category : 'Women' , cart : 'false' ,animation : 'fade-left'},
+        {id : 13 , imgUrl : 'https://us.mavi.com/cdn/shop/files/M168837-900_700_1100_1.jpg?v=1685573015' , name : 'Black Sweatshirt' , category : 'Women' , cart : 'false' ,animation : 'fade-up'},
+        {id : 14 , imgUrl : 'https://images.meesho.com/images/products/155282372/wvm8a_512.webp' , name : 'line Pattern Black' , category : 'Women' , cart : 'false' ,animation : 'fade-down'},
+        {id : 15 , imgUrl : 'https://eg.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/36/430414/1.jpg?1129' , name : 'Black Shorts' , category : 'Women' , cart : 'false' ,animation : 'fade-right'},
+        {id : 16 , imgUrl : 'https://babeonclothing.com/cdn/shop/products/monochromatic-sweatshirt-mockup-featuring-a-woman-sitting-in-a-studio-32819copy.jpg?v=1652512309' , name : 'Levender Hoodie' , category : 'Women' , cart : 'false' ,animation : 'fade-left'},
       ]
     }
   },
@@ -47,7 +47,7 @@ export default {
   components: {
     Navbar,
     ProductSlider,
-    feedbackSlider,
+    FeedbackSlider,
     Footer
   }
 }
@@ -212,7 +212,7 @@ export default {
       <h3 class="special-Head">
         Feedback
       </h3>
-      <feedbackSlider />
+      <FeedbackSlider />
     </div>
   </div>
   <Footer />

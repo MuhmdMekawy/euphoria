@@ -15,7 +15,7 @@
             <h3>{{ item.name }}</h3>
           </div>
           <div class="rate">
-            <img :src="item.rating" alt="img" loading="lazy">
+            <img src="../assets/images/72.png" alt="img" loading="lazy">
           </div>
         </div>
         <p>{{ item.paragraph }}</p>
@@ -34,7 +34,7 @@ import 'vue3-carousel/dist/carousel.css'
 import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'
 
 export default {
-  name: 'App',
+  name: 'FeedbackSlider',
   components: {
     Carousel,
     Slide,
@@ -44,12 +44,12 @@ export default {
   data() {
     return {
       feedBacks: [
-        {id: 1, imgUrl: 'src/assets/images/74.png', rating: 'src/assets/images/71.png', name: 'Floyd Miles', paragraph: "ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."},
-        {id: 2, imgUrl: 'src/assets/images/75.png', rating: 'src/assets/images/72.png', name: 'Ronald Richards', paragraph: "ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."},
-        {id: 3, imgUrl: 'src/assets/images/76.png', rating: 'src/assets/images/73.png', name: 'Savannah Nguyen', paragraph: "ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."},
-        {id: 4, imgUrl: 'src/assets/images/74.png', rating: 'src/assets/images/71.png', name: 'Floyd Miles', paragraph: "ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."},
-        {id: 5, imgUrl: 'src/assets/images/75.png', rating: 'src/assets/images/72.png', name: 'Ronald Richards', paragraph: "ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."},
-        {id: 6, imgUrl: 'src/assets/images/76.png', rating: 'src/assets/images/73.png', name: 'Savannah Nguyen', paragraph: "ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."},
+        {id: 1, imgUrl: 'https://png.pngtree.com/png-vector/20220709/ourmid/pngtree-businessman-user-avatar-wearing-suit-with-red-tie-png-image_5809521.png', rating: 'src/assets/images/71.png', name: 'Floyd Miles', paragraph: "ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."},
+        {id: 2, imgUrl: 'https://apk.playalandroid.com/uploads/images/202305/image-512x512-6451a190d9971.webp', name: 'Ronald Richards', paragraph: "ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."},
+        {id: 3, imgUrl: 'https://imgv3.fotor.com/images/gallery/watercolor-female-avatar.jpg', rating: 'src/assets/images/73.png', name: 'Savannah Nguyen', paragraph: "ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."},
+        {id: 4, imgUrl: 'https://png.pngtree.com/png-vector/20220709/ourmid/pngtree-businessman-user-avatar-wearing-suit-with-red-tie-png-image_5809521.png', rating: 'src/assets/images/71.png', name: 'Floyd Miles', paragraph: "ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."},
+        {id: 5, imgUrl: 'https://apk.playalandroid.com/uploads/images/202305/image-512x512-6451a190d9971.webp', name: 'Ronald Richards', paragraph: "ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."},
+        {id: 6, imgUrl: 'https://imgv3.fotor.com/images/gallery/watercolor-female-avatar.jpg', rating: 'src/assets/images/73.png', name: 'Savannah Nguyen', paragraph: "ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet."},
       ],
       breakpoints: {
         320: {
